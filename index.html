@@ -2,17 +2,208 @@
 <html>
   <head>
     <title>Elise & Nathan</title>
+<style>
+
+@import
+  url("https://fonts.googleapis.com/css2?family=Petit+Formal+Script&family=Playfair+Display&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.hero {
+  position: relative;
+}
+
+.hero h1 { 
+  color: white;
+  position: absolute;
+  font-family: "Petit Formal Script", cursive;
+  font-size: 60px;
+  font-weight: bold;
+  top: 30px;
+  left: 60px;
+}
+
+header { 
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+header nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+header nav ul li {
+  display: inline-block;
+  margin-right: 15px;
+}
+
+header nav ul li a {
+  font-family: "Playfair Display", serif;
+  font-style: italic;
+  text-decoration: none;
+  color: darkgreen;
+}
+
+header nav ul li a:hover {
+  text-decoration: underline;
+}
+
+body {
+  width: 960px;
+  margin: auto;
+  margin-bottom: 90px;
+}
+
+section h2 {
+  color: darkgreen;
+  font-family: "Petit Formal Script", cursive;
+  font-weight: bold;
+  margin-bottom: 15px;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-top: 15px;
+}
+
+section.content p {
+  text-align: center;
+}
+
+section.content h3 {
+  color: darkgreen;
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+
+section.content {
+  font-family: "Playfair Display", serif;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 640px;
+}
+
+.link-button {
+  display: inline-block;
+  padding: 10px;
+  background: darkgreen;
+  color: white;
+  text-decoration: none;
+  border-radius: 10px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.link-mail {
+  text-decoration: none;
+  font-weight: bold;
+  display: inline-block;
+  padding: 10px;
+  color: darkgreen;
+  margin-top: 15px;
+  margin-bottom: 15px; 
+}
+
+</style>
   </head>
   <body>
     <header>
       <nav>
         <ul>
-	  <li>
-	    <a href="/">E & N</a>
-	  </li>
-	</ul>
+      	  <li>
+	          <a href="/">E & N</a>
+	        </li>
+          <li>
+            <a href="#celebration">Our Celebration</a>
+          </li>
+          <li>
+            <a href="#rsvp">RSVP</a>
+          </li> 
+          <li>
+            <a href="#when-and-where">When and Where</a>
+          </li>
+          <li>
+            <a href="#hotels">Hotels</a>
+          </li>
+          <li>
+            <a href="#contact">Contact</a>
+          </li>
+	      </ul>
       </nav>
     </header>
-    <h1>Elise & Nathan</h1>
+    <section class="hero">
+      <img src="Pictures/Garden_Embrace_Hero.jpeg"/>
+      <h1>Elise & Nathan</h1>
+    </section>
+    <section id="celebration" class="content">
+      <h2>Our Celebration</h2>
+      <p>
+      Elise Roy and Nathan Burgers are getting married!<br/>
+      We are delighted to invite you to join us in the celebration of<br/>
+      our union.
+      </p>
+    </section>
+    <section id="rsvp" class="content">
+      <h2>RSVP</h2>
+      <p>
+      Please feel free to RSVP online, <br/>
+      especially if you
+      live in a location where sending and <br/> receiving post 
+      from the United States is difficult.
+      </p>
+      <p>
+        <a class="link-button" href="https://docs.google.com/forms/d/e/1FAIpQLSdSYL38gdjf2R0UKwbkW69MKwg4qmZlgqN_pS2CM-tGQcvCpA/viewform?usp=sf_link">RSVP Online</a>
+      </p>
+    </section> 
+    <section id="when-and-where" class="content">
+      <h2>When and Where</h2>
+      <p>
+        July 9<sup>th</sup> 2022<br/>
+        5 o'clock in the afternoon <br/>
+        <br/>
+        Shea's Buffalo Theatre<br/>
+        646 Main Street<br/>
+        Buffalo, NY 14202
+        <br/>
+        Black-Tie Optional Attire
+      </p>
+    </section>
+    <section id="hotels" class="content">
+      <h2>Hotels</h2>
+      <div>
+        <p>
+          There are many hotels in the downtown Buffalo<br/>
+          area near Shea's.  We have discounted rates<br/>
+          available at the following hotels.
+        </p>
+      </div>
+      <div>
+        <h3>Holiday Inn Express</h3>
+        <p>
+          <a class="link-button" href="https://www.ihg.com/holidayinnexpress/hotels/us/en/buffalo/bufms/hoteldetail?fromRedirect=true&qSrt=sBR&qIta=99502056&icdv=99502056&qSlH=BUFMS&qCpid=100235822&qAAR=IL4D4&qRtP=IL4D4&setPMCookies=true&qSHBrC=EX&qDest=601%20Main%20Street,%20Buffalo,%20NY,%20US&srb_u=1">
+          Discount Reservation Link
+          </a>
+        </p>
+      </div>
+    </section>
+    <section id="contact" class="content">
+      <h2>Contact</h2>
+      <p>
+      If you have any questions, please feel free to email us at:<br/>
+        <a class="link-mail" href="mailto:contact@eliseandnathan.com">
+          contact@eliseandnathan.com
+        </a>
+      </p>
+    </section> 
   </body>
 </html>
